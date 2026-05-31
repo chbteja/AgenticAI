@@ -1,0 +1,60 @@
+Introduction to Python Programming
+
+Python is a high-level, interpreted programming language known for its clear syntax and readability.
+It was created by Guido van Rossum and first released in 1991. Python's design philosophy
+emphasises code readability, and its syntax allows programmers to express concepts in fewer
+lines of code than would be possible in languages such as C++ or Java.
+
+Python supports multiple programming paradigms, including structured, object-oriented, and
+functional programming. It has a comprehensive standard library, often described as "batteries
+included," which provides tools for many common programming tasks.
+
+Key Features of Python
+
+Python uses dynamic typing and garbage collection. Its core philosophy is summarised in the
+document "The Zen of Python", which includes aphorisms such as:
+- Beautiful is better than ugly.
+- Explicit is better than implicit.
+- Simple is better than complex.
+- Readability counts.
+
+Python and Machine Learning
+
+Python has become the dominant language in data science and machine learning. Libraries such
+as NumPy, pandas, scikit-learn, TensorFlow, and PyTorch are all written primarily in Python
+or have Python as their primary interface.
+
+The main reasons Python is preferred for machine learning are:
+1. Simple syntax that allows researchers to focus on algorithms rather than boilerplate code.
+2. Rich ecosystem of numerical and scientific libraries.
+3. Strong community support and extensive documentation.
+4. Ability to prototype quickly and then optimise critical sections in C extensions.
+
+Python in Web Development
+
+Django and Flask are the two most popular Python web frameworks. Django follows the
+"batteries included" philosophy with an ORM, admin interface, and authentication built-in.
+Flask is a micro-framework that provides the basics and lets developers choose their own
+tools for each component.
+
+FastAPI is a newer framework designed specifically for building APIs, offering automatic
+documentation generation and high performance through asynchronous request handling.
+
+Python Versions
+
+Python 2 reached end-of-life on January 1, 2020. All new projects should use Python 3.
+Python 3.11 introduced significant performance improvements, with benchmarks showing a
+10-60% speedup over Python 3.10. Python 3.12 and beyond continue this trend.
+
+The recommended way to manage Python versions is using pyenv on macOS/Linux or the
+official Python launcher on Windows. Virtual environments (created with python -m venv)
+should be used for every project to avoid dependency conflicts.
+
+Python Community and Governance
+
+Python's development is governed by the Python Software Foundation (PSF). The language
+follows a consensus-based development process using Python Enhancement Proposals (PEPs).
+PEP 8 is the style guide for Python code and is widely followed in the community.
+
+Guido van Rossum served as Python's "Benevolent Dictator for Life" (BDFL) until 2018,
+when he stepped down and a steering council model was adopted for governance.
